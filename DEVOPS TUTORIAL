@@ -159,7 +159,7 @@ Plus, a single business process can run across multiple machines, further compli
 5)Lack of standardization  :Without a common platform, there can be a proliferation of languages, 
 logging standards, and monitoring. 
 
-76)Lack of clear ownership : As more services are introduced, so are the number of teams running those services. 
+6)Lack of clear ownership : As more services are introduced, so are the number of teams running those services. 
 Over time it becomes difficult to know the available services a team can leverage and who to contact for support.
 
 
