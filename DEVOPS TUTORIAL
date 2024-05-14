@@ -140,7 +140,7 @@ You can deploy changes for a specific service, without the threat of bringing do
 The Atlassian teams who work with microservices are a lot happier, since they are more autonomous and can build and 
 deploy themselves without waiting weeks for a pull request to be approved.
 
-DISADVANTAGES OF MICROLITHIC ARCHITECTURE
+DISADVANTAGES OF MICROLITHIC SERVICE :
 1)Development sprawl :
 Microservices add more complexity compared to a monolith architecture, since there are more services in more places
 created by multiple teams. If development sprawl isn’t properly managed, it results in slower development speed and poor 
