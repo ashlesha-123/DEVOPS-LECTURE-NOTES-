@@ -6,7 +6,7 @@ by fostering collaboration and automation between development and operation team
 QUE: What is Devops life cycle?
 ANS:      The devops lifecycle is a continuous software development process that employes devops bestt practices to plan , build ,test , deploy , monitor , oprate and Code offer 
 continuous feedback throughout the software lifecycle .
-1) DISCOVER 
+1) Discover :
        In the Discover phase, a DevOps team researches and defines the scope of a project. 
 In particular, it involves activities such as user research, establishing goals, and defining success.
 Tools like Mural and Miro empower the entire software team to gather ideas and conduct research. 
@@ -19,7 +19,7 @@ We recommend looking for tools that encourage “asynchronous brainstorming”.
 It’s important that everyone can share and comment on anything: ideas, strategies, goals, requirements, roadmaps,
 and documentation.
 
-2)BUILD :
+2)Built :
           Code will be introduced to the project during the construction phase, and if necessary, the project will be 
 rebuilt to accommodate the new code. 
 This can be accomplished in a variety of ways, although GitHub or a comparable version control site is frequently used.
@@ -27,12 +27,12 @@ The developer will request the addition of the code, which will then be reviewed
 The request will be approved if the code is ready to be uploaded, and the code will be added to the project. 
 Even when adding new features and addressing bugs, this method is effective.
 
-3)TEST :
+3)Test :
            Throughout the testing phase, teams will do any necessary testing to ensure the project performs as planned. 
 Teams will also test for edge and corner case issues at this stage. 
 An “edge case” is a bug or issue that only manifests during an extreme operating event, whereas a “corner case” occurs when many circumstances are met.
 
-4)DEPOLY :
+4)Deploy  :
            In the deploy phase, the project is prepared for the production environment and is operating as planned in that environment. 
 This would be the responsibility of the operations team; in DevOps, it is a shared responsibility. 
 This shared duty pushes team members to collaborate to guarantee a successful deployment.
