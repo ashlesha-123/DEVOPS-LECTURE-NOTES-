@@ -13,12 +13,15 @@ Tools like Mural and Miro empower the entire software team to gather ideas and c
 Jira Product Discovery organizes this information into actionable inputs and prioritizes actions for development teams. 
 As you’re prioritizing, you’ll also need to keep your backlog of user feedback in mind.
 Product discovery is the very first activity of a product design, which then becomes the baseline for decision making. 
-During product discovery, you can collect all the crucial information about any user problems and then provide solutions for them.
+During product discovery, you can collect all the crucial information about any user problems and then provide
+solutions for them.
 We recommend looking for tools that encourage “asynchronous brainstorming”. 
-It’s important that everyone can share and comment on anything: ideas, strategies, goals, requirements, roadmaps, and documentation.
+It’s important that everyone can share and comment on anything: ideas, strategies, goals, requirements, roadmaps,
+and documentation.
 
 2)BUILD :
-          Code will be introduced to the project during the construction phase, and if necessary, the project will be rebuilt to accommodate the new code. 
+          Code will be introduced to the project during the construction phase, and if necessary, the project will be 
+rebuilt to accommodate the new code. 
 This can be accomplished in a variety of ways, although GitHub or a comparable version control site is frequently used.
 The developer will request the addition of the code, which will then be reviewed as necessary. 
 The request will be approved if the code is ready to be uploaded, and the code will be added to the project. 
@@ -49,7 +52,114 @@ This phase is essential for planning the next iteration and streamlines the pipe
 Developers will write code in accordance with the specifications outlined in the planning phase and will ensure that the code is created with the project’s operations in mind.
 
 QUE : What Is Service ?
-ANS  : 
+ANS  : Devops as a service model is tool that facilitates collaboration between software development and opration team within 
+an organization .
+This delivery model connects disparte tools instead of best-of-breed toolchiain , an in-house best -of-breed solution.
 
+QUE :4) What is monolithic and microlithic architecture ?
+ANS : A monolithic application is a single unified software application which is self contained and independent from other 
+applications .
+The word "monolith" is often attributed to something large and glacial , which isn't far from the truth of monolith architecture 
+for software design .
+A monolithic architecture is a singular ,large computing network with one code base that to make a change to this sort of application 
+requires updating the entire stack by accessing the code base and building and deploying an updated version of the -side interface 
+
+Advantages of a monolithic architecture
+Organizations can benefit from either a monolithic or microservices architecture, depending on a number of different factors. When developing using a monolithic architecture, the primary advantage is fast development speed due to the simplicity of having an application based on one code base. 
+
+The advantages of a monolithic architecture include: 
+
+1) Easy deployment : 
+     One executable file or directory makes deployment easier.
+
+2) Development  :
+    When an application is built with one code base, it is easier to develop.
+
+3) Performance :
+     In a centralized code base and repository, one API can often perform the same function that 
+      numerous APIs perform with microservices.
+
+4) Simplified testing : 
+Since a monolithic application is a single, centralized unit, end-to-end testing can be performed faster than with a 
+distributed application. 
+
+5)Easy debugging :  With all code located in one place, it’s easier to follow a request and find an issue.
+
+
+The disadvantages of a monolith include: 
+
+1)Slower development speed :
+   A large, monolithic application makes development more complex and slower.
+
+2) Scalability : 
+     You can’t scale individual components.
+
+3) Reliability :
+If there’s an error in any module, it could affect the entire application’s availability.
+
+4) Barrier to technology adoption :
+Any changes in the framework or language affects the entire application, making changes often expensive and time-consuming.
+
+5)Lack of flexibility :
+A monolith is constrained by the technologies already used in the monolith.
+
+Microlithic architecture 
+A microlithices arcchitecture , also simply known as microservices , in an architectural method that relies on a series of i
+independently depolyable services.
+These services have their own business logic and database with a specific goal .
+updating ,testing ,deployment and scaling occur within each service .
+microservice decouple major business , domain - specific concerns into separate independant code bases.
+Microservices don’t reduce complexity, but they make any complexity visible and more manageable by separating
+tasks into smaller processes that function independently of each other and contribute to the overall whole.
+
+Advantages of microservices
+ 1) Agility :
+Promote agile ways of working with small teams that deploy frequently.
+
+ 2) Flexible scaling :
+If a microservice reaches its load capacity, new instances of that service can rapidly be deployed to the accompanying cluster to help relieve pressure. We are now multi-tenanant and stateless with customers spread across multiple instances. Now we can support much larger instance sizes. 
+
+3) Continuous deployment : 
+We now have frequent and faster release cycles. Before we would push out updates once a week and now we can do so about two to three times a day. 
+
+4) Highly maintainable and testable  : 
+Teams can experiment with new features and roll back if something doesn’t work. This makes 
+it easier to update code and accelerates time-to-market for new features. Plus, it is easy to isolate and fix faults 
+and bugs in individual services.
+
+5) Independently deployable :
+Since microservices are individual units they allow for fast and easy independent deployment of individual features. 
+
+6) Technology flexibility :
+Microservice architectures allow teams the freedom to select the tools they desire. 
+
+7) High reliability :
+You can deploy changes for a specific service, without the threat of bringing down the entire application.
+
+8) Happier teams : 
+The Atlassian teams who work with microservices are a lot happier, since they are more autonomous and can build and 
+deploy themselves without waiting weeks for a pull request to be approved.
+
+DISADVANTAGES OF MICROLITHIC ARCHITECTURE
+1)Development sprawl :
+Microservices add more complexity compared to a monolith architecture, since there are more services in more places
+created by multiple teams. If development sprawl isn’t properly managed, it results in slower development speed and poor 
+operational performance. 
+
+2)Exponential infrastructure costs  :
+Each new microservice can have its own cost for test suite, deployment playbooks, hosting infrastructure, 
+monitoring tools, and more.
+
+3)Added organizational overhead :
+Teams need to add another level of communication and collaboration to coordinate updates and interfaces. 
+
+4)Debugging challenges :Each microservice has its own set of logs, which makes debugging more complicated.
+Plus, a single business process can run across multiple machines, further complicating debugging. 
+
+5)Lack of standardization  :Without a common platform, there can be a proliferation of languages, 
+logging standards, and monitoring. 
+
+76)Lack of clear ownership : As more services are introduced, so are the number of teams running those services. 
+Over time it becomes difficult to know the available services a team can leverage and who to contact for support.
 
 
