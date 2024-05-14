@@ -1,1 +1,55 @@
+QUE: What is devopS? 
+ANS: Devops is like bridge between software development and it oprations 
+its  all about making process of building ,testing and deploying software faster ,more reliable and efficient 
+by fostering collaboration and automation between development and operation teams.
+
+QUE: What is Devops life cycle?
+ANS:      The devops lifecycle is a continuous software development process that employes devops bestt practices to plan , build ,test , deploy , monitor , oprate and Code offer 
+continuous feedback throughout the software lifecycle .
+1) DISCOVER 
+       In the Discover phase, a DevOps team researches and defines the scope of a project. 
+In particular, it involves activities such as user research, establishing goals, and defining success.
+Tools like Mural and Miro empower the entire software team to gather ideas and conduct research. 
+Jira Product Discovery organizes this information into actionable inputs and prioritizes actions for development teams. 
+As you’re prioritizing, you’ll also need to keep your backlog of user feedback in mind.
+Product discovery is the very first activity of a product design, which then becomes the baseline for decision making. 
+During product discovery, you can collect all the crucial information about any user problems and then provide solutions for them.
+We recommend looking for tools that encourage “asynchronous brainstorming”. 
+It’s important that everyone can share and comment on anything: ideas, strategies, goals, requirements, roadmaps, and documentation.
+
+2)BUILD :
+          Code will be introduced to the project during the construction phase, and if necessary, the project will be rebuilt to accommodate the new code. 
+This can be accomplished in a variety of ways, although GitHub or a comparable version control site is frequently used.
+The developer will request the addition of the code, which will then be reviewed as necessary. 
+The request will be approved if the code is ready to be uploaded, and the code will be added to the project. 
+Even when adding new features and addressing bugs, this method is effective.
+
+3)TEST :
+           Throughout the testing phase, teams will do any necessary testing to ensure the project performs as planned. 
+Teams will also test for edge and corner case issues at this stage. 
+An “edge case” is a bug or issue that only manifests during an extreme operating event, whereas a “corner case” occurs when many circumstances are met.
+
+4)DEPOLY :
+           In the deploy phase, the project is prepared for the production environment and is operating as planned in that environment. 
+This would be the responsibility of the operations team; in DevOps, it is a shared responsibility. 
+This shared duty pushes team members to collaborate to guarantee a successful deployment.
+
+5)Operate :
+          In the operating phase, teams test the project in a production environment, and end users utilise the product. 
+This crucial stage is by no means the final step. Rather, it informs future development cycles and manages the configuration of the production environment and the implementation
+of any runtime requirements.
+
+6)Monitor : 
+         During the monitoring phase, product usage, as well as any feedback, issues, or possibilities for improvement, are recognized and documented. 
+This information is then conveyed to the subsequent iteration to aid in the development process. 
+This phase is essential for planning the next iteration and streamlines the pipeline’s development process.
+
+7) code :
+       The developers will write the code and prepare it for the next phase during the coding stage. 
+Developers will write code in accordance with the specifications outlined in the planning phase and will ensure that the code is created with the project’s operations in mind.
+
+QUE : What Is Service ?
+ANS  : 
+
+
 
