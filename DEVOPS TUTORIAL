@@ -103,7 +103,7 @@ Any changes in the framework or language affects the entire application, making 
 5)Lack of flexibility :
 A monolith is constrained by the technologies already used in the monolith.
 
-Microlithic architecture 
+Microlithic service
 A microlithices arcchitecture , also simply known as microservices , in an architectural method that relies on a series of i
 independently depolyable services.
 These services have their own business logic and database with a specific goal .
